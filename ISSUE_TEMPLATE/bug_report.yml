@@ -1,0 +1,43 @@
+name: Hata bildirimi · Bug report
+description: Beklendiği gibi çalışmayan bir şey · Something that doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Ne oldu? · What happened?
+      description: Ne bekliyordunuz, ne oldu? · What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Nasıl tekrarlanır? · Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Sürüm · Version
+      description: Ayarlar › Hakkında · Settings › About
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Sistem · System
+      description: Dağıtım, masaüstü, Wayland ya da X11 · Distribution, desktop, Wayland or X11
+      placeholder: Ubuntu 24.04, GNOME, Wayland
+  - type: dropdown
+    id: package
+    attributes:
+      label: Paket · Package
+      options:
+        - AppImage
+        - .deb
+        - Kaynaktan · From source
