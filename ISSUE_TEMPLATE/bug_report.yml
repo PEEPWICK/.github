@@ -41,3 +41,9 @@ body:
         - AppImage
         - .deb
         - Kaynaktan · From source
+  - type: textarea
+    id: report
+    attributes:
+      label: Hata raporu · Error report
+      description: "Ayarlar › Hata bildir sayfasından gelir; kişisel veri içermez. · From Settings › Report a bug; holds no personal data."
+      render: text
