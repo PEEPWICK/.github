@@ -1,18 +1,18 @@
-name: Hata bildirimi · Bug report
-description: Beklendiği gibi çalışmayan bir şey · Something that doesn't work as expected
+name: Bug report
+description: Something that doesn't work as expected
 labels: [bug]
 body:
   - type: textarea
     id: what
     attributes:
-      label: Ne oldu? · What happened?
-      description: Ne bekliyordunuz, ne oldu? · What did you expect, and what happened instead?
+      label: What happened?
+      description: What did you expect, and what happened instead?
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Nasıl tekrarlanır? · Steps to reproduce
+      label: Steps to reproduce
       placeholder: |
         1.
         2.
@@ -22,28 +22,28 @@ body:
   - type: input
     id: version
     attributes:
-      label: Sürüm · Version
-      description: Ayarlar › Hakkında · Settings › About
+      label: Version
+      description: Settings › About
       placeholder: 0.2.1a
     validations:
       required: true
   - type: input
     id: system
     attributes:
-      label: Sistem · System
-      description: Dağıtım, masaüstü, Wayland ya da X11 · Distribution, desktop, Wayland or X11
+      label: System
+      description: Distribution, desktop, Wayland or X11
       placeholder: Ubuntu 24.04, GNOME, Wayland
   - type: dropdown
     id: package
     attributes:
-      label: Paket · Package
+      label: Package
       options:
         - AppImage
         - .deb
-        - Kaynaktan · From source
+        - From source
   - type: textarea
     id: report
     attributes:
-      label: Hata raporu · Error report
-      description: "Tarayıcı bir hata raporu verdiyse buraya yapıştırın; kişisel veri içermez. · If the browser gave you an error report, paste it here; it holds no personal data."
+      label: Error report
+      description: "If the browser gave you an error report, paste it here. It holds no personal data."
       render: text
