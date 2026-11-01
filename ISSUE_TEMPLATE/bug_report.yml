@@ -24,7 +24,7 @@ body:
     attributes:
       label: Sürüm · Version
       description: Ayarlar › Hakkında · Settings › About
-      placeholder: 0.1.0
+      placeholder: 0.2.1a
     validations:
       required: true
   - type: input
@@ -45,5 +45,5 @@ body:
     id: report
     attributes:
       label: Hata raporu · Error report
-      description: "Ayarlar › Hata bildir sayfasından gelir; kişisel veri içermez. · From Settings › Report a bug; holds no personal data."
+      description: "Tarayıcı bir hata raporu verdiyse buraya yapıştırın; kişisel veri içermez. · If the browser gave you an error report, paste it here; it holds no personal data."
       render: text

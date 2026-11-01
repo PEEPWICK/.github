@@ -12,6 +12,7 @@ change first: it saves both of us time.
   npm ci
   npm run typecheck
   npm test
+  cargo test --manifest-path src-tauri/Cargo.toml
   ```
 
 - Match the style of the code around your change.

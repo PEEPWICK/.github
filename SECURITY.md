@@ -13,7 +13,7 @@ fix ships, we credit you in the release notes unless you'd rather stay anonymous
 
 ## Supported versions
 
-Only the latest release of each project receives security fixes. PEEPWICK Browser updates itself,
+Only the newest version of each project receives security fixes. PEEPWICK Browser updates itself,
 so most users get fixes without doing anything.
 
 ---
@@ -29,5 +29,5 @@ Güvenlik açıklarını lütfen **özel olarak** bildirin, herkese açık bir *
 Her bildirimi okuruz, tekrarlayabildiğimizi doğrular ve ne yapacağımızı size söyleriz. Düzeltme
 yayınlandığında, isimsiz kalmayı tercih etmediğiniz sürece sürüm notlarında adınızı anarız.
 
-Yalnızca her projenin son sürümü güvenlik düzeltmesi alır. PEEPWICK Browser kendini güncellediği
+Yalnızca her projenin en yeni sürümü güvenlik düzeltmesi alır. PEEPWICK Browser kendini güncellediği
 için çoğu kullanıcıya düzeltmeler kendiliğinden ulaşır.
