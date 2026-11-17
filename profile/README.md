@@ -17,7 +17,7 @@ and stays quiet: a black-and-white frame that lets the pages you visit keep thei
 Fingerprinting protection, cookie banners rejected for you, HTTPS-Only and signed updates. Written
 in Rust with Tauri and WebKitGTK, for Linux.
 
-[**Download**](https://github.com/PEEPWICK/peepwick-browser/releases/tag/v0.2.1a)
+[**Download**](https://github.com/PEEPWICK/peepwick-browser/releases)
 &nbsp;·&nbsp; [Source code](https://github.com/PEEPWICK/peepwick-browser)
 &nbsp;·&nbsp; <sub>ALPHA · GPL-3.0</sub>
 
